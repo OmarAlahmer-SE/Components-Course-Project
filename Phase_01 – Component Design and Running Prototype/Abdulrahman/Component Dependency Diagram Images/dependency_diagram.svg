@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1480" height="1090" viewBox="0 0 1480 1090" font-family="Arial, Helvetica, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+<marker id="open" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L11,7 L1,13" fill="none" stroke="#000" stroke-width="1.8"/></marker>
+<marker id="tri" markerWidth="18" markerHeight="16" refX="16" refY="8" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L16,8 L1,15 Z" fill="#fff" stroke="#000" stroke-width="1.8"/></marker>
+</defs>
+<rect width="1480" height="1090" fill="#fff"/>
+<g transform="translate(50,0)">
+<text x="60" y="62" font-size="24" font-weight="bold">Campus Cafe Ordering System</text>
+<text x="60" y="88" font-size="16" fill="#000">Dependency Diagram — Checkpoint 1 Prototype</text>
+<rect x="60" y="790" width="1300" height="140" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="80" y="815" font-size="15" font-style="italic">«package» Data Models</text>
+<path d="M170,230 L170,330" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M890,230 L890,330" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M1240,230 L1240,330" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M530,230 L530,330" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M350,230 L350,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M710,230 L710,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M1090,230 L1090,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M1240,160 L1240,100" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M250,400 L250,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#tri)"/>
+<path d="M800,400 L800,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#tri)"/>
+<path d="M1240,400 L1240,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#tri)"/>
+<path d="M440,400 L440,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M620,400 L620,600" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M100,400 L100,790" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M530,400 L530,790" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M350,670 L350,790" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M1165,670 L1165,790" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M1320,400 L1320,790" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M60,195 L30,195 L30,860 L60,860" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<path d="M1010,865 L920,865" fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" marker-end="url(#open)"/>
+<rect x="1120" y="30" width="240" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="1240.0" y="56" font-size="13" font-style="italic" text-anchor="middle">«class»</text>
+<text x="1240.0" y="82" font-size="18" font-weight="bold" text-anchor="middle">TestRunner</text>
+<rect x="60" y="160" width="1300" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="710.0" y="186" font-size="13" font-style="italic" text-anchor="middle">«composition root»</text>
+<text x="710.0" y="212" font-size="18" font-weight="bold" text-anchor="middle">Program</text>
+<rect x="60" y="330" width="220" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="170.0" y="356" font-size="13" font-style="italic" text-anchor="middle">«class»</text>
+<text x="170.0" y="382" font-size="18" font-weight="bold" text-anchor="middle">InMemoryCatalogue</text>
+<rect x="420" y="330" width="220" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="530.0" y="356" font-size="13" font-style="italic" text-anchor="middle">«class»</text>
+<text x="530.0" y="382" font-size="18" font-weight="bold" text-anchor="middle">OrderService</text>
+<rect x="780" y="330" width="220" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="890.0" y="356" font-size="13" font-style="italic" text-anchor="middle">«class»</text>
+<text x="890.0" y="382" font-size="18" font-weight="bold" text-anchor="middle">NoDiscount</text>
+<rect x="1120" y="330" width="240" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="1240.0" y="356" font-size="13" font-style="italic" text-anchor="middle">«class»</text>
+<text x="1240.0" y="382" font-size="18" font-weight="bold" text-anchor="middle">DetailedReceiptFormatter</text>
+<rect x="220" y="600" width="260" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="350.0" y="626" font-size="13" font-style="italic" text-anchor="middle">«interface»</text>
+<text x="350.0" y="652" font-size="18" font-weight="bold" text-anchor="middle">IProductCatalogue</text>
+<rect x="580" y="600" width="260" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="710.0" y="626" font-size="13" font-style="italic" text-anchor="middle">«interface»</text>
+<text x="710.0" y="652" font-size="18" font-weight="bold" text-anchor="middle">IPricingPolicy</text>
+<rect x="1040" y="600" width="250" height="70" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="1165.0" y="626" font-size="13" font-style="italic" text-anchor="middle">«interface»</text>
+<text x="1165.0" y="652" font-size="18" font-weight="bold" text-anchor="middle">IReceiptFormatter</text>
+<rect x="90" y="835" width="250" height="60" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="215.0" y="871.0" font-size="18" font-weight="bold" text-anchor="middle">Product</text>
+<rect x="380" y="835" width="250" height="60" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="505.0" y="871.0" font-size="18" font-weight="bold" text-anchor="middle">OrderLine</text>
+<rect x="670" y="835" width="250" height="60" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="795.0" y="871.0" font-size="18" font-weight="bold" text-anchor="middle">CalculatedLine</text>
+<rect x="1010" y="835" width="250" height="60" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="1135.0" y="871.0" font-size="18" font-weight="bold" text-anchor="middle">OrderSummary</text>
+<rect x="132.95" y="269" width="74.1" height="20" fill="#fff"/>
+<text x="170" y="284" font-size="12" font-style="italic" text-anchor="middle">«creates»</text>
+<rect x="852.95" y="269" width="74.1" height="20" fill="#fff"/>
+<text x="890" y="284" font-size="12" font-style="italic" text-anchor="middle">«creates»</text>
+<rect x="1202.95" y="269" width="74.1" height="20" fill="#fff"/>
+<text x="1240" y="284" font-size="12" font-style="italic" text-anchor="middle">«creates»</text>
+<rect x="468.8" y="269" width="122.4" height="20" fill="#fff"/>
+<text x="530" y="284" font-size="12" font-style="italic" text-anchor="middle">«creates / uses»</text>
+<rect x="323.3" y="269" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="350" y="284" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="683.3" y="269" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="710" y="284" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="1063.3" y="269" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="1090" y="284" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="1213.3" y="119" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="1240" y="134" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="202.6" y="489" width="94.80000000000001" height="20" fill="#fff"/>
+<text x="250" y="504" font-size="12" font-style="italic" text-anchor="middle">«implements»</text>
+<rect x="752.6" y="489" width="94.80000000000001" height="20" fill="#fff"/>
+<text x="800" y="504" font-size="12" font-style="italic" text-anchor="middle">«implements»</text>
+<rect x="1192.6" y="489" width="94.80000000000001" height="20" fill="#fff"/>
+<text x="1240" y="504" font-size="12" font-style="italic" text-anchor="middle">«implements»</text>
+<rect x="413.3" y="489" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="440" y="504" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="593.3" y="489" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="620" y="504" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="73.3" y="719" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="100" y="734" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="503.3" y="719" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="530" y="734" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="323.3" y="719" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="350" y="734" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="1138.3" y="719" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="1165" y="734" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="1293.3" y="719" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="1320" y="734" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="3.299999999999997" y="489" width="53.400000000000006" height="20" fill="#fff"/>
+<text x="30" y="504" font-size="12" font-style="italic" text-anchor="middle">«uses»</text>
+<rect x="924.5" y="836" width="81.0" height="20" fill="#fff"/>
+<text x="965" y="851" font-size="12" font-style="italic" text-anchor="middle">«contains»</text>
+<rect x="60" y="975" width="620" height="80" fill="#fff" stroke="#000" stroke-width="1.5"/>
+<text x="76" y="998" font-size="14" font-weight="bold">Legend</text>
+<path d="M80,1022 L190,1022" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" fill="none" marker-end="url(#open)"/>
+<text x="205" y="1027" font-size="14">Dependency (uses / creates)</text>
+<path d="M80,1045 L190,1045" stroke="#000" stroke-width="1.8" stroke-dasharray="8 5" fill="none" marker-end="url(#tri)"/>
+<text x="205" y="1050" font-size="14">Realization (class implements interface)</text>
+</g><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphMjBiY2NiZC0wMzI2LTQ2MWMtYWZlZi1lNGFhYjViMGE0ZTYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaGoOGg0KRe7bA2FByIAMpI8AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5OTNkMzVhOC1kOWE3LTQ3MjUtYmE2Zi0yNzI0NDdmYTcxY2VscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoqAAN783fg4vF1J18IfCEqAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggsunbdJ/h5tF6MmKRTho1zI9bdXonTvz48EBvuHeLgaOkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPi114UP5Mylk1o5pOs5wUsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIHHpP5CbWay52QHtCjVy/R2H1XBqqWLpNJ79318pdpn3ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GSqSZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmEyMGJjY2JkLTAzMjYtNDYxYy1hZmVmLWU0YWFiNWIwYTRlNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmUxYzMyZjFkLWE0OGQtNDA2MS1hNGEyLWQ4MTA1ZjljY2U1MXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCy6dt0n+Hm0XoyYpFOGjXMj1t1eidO/PjwQG+4d4uBo6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggdo6ZEcwMyJLLMulKL19YKsKssi05m2Sd+mNbdtsxzeiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggMIkSAuTaL9usj5+vVT75L0yww4yYCsPjDdneXqcHgh10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQH58WBeGJmBHHSZIzuRfOzdoj+e6vmuOj1b0Rvl0xRw3smp+ct93Mvl/eTp9UUHNXDaFGUWhuoqAShOKNzt8aAs=</c2pa:manifest></metadata></svg>
